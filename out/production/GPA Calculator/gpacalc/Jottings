@@ -1,0 +1,29 @@
+
+//        if (numCourses >0) {
+//            in.nextLine();
+//
+//            Courseinfo allCourses [] = new Courseinfo[numCourses];
+//
+//            for (int i = 0; i < numCourses; i++){
+//                Courseinfo course = new Courseinfo();
+//                System.out.printf("\nRegistration of Course %d:\n", i+1);
+//                System.out.println("\nProvide course Name and Code");
+//                String name = in.nextLine();
+//                course.setName(name);
+//                System.out.printf("Provide the unit for %s:",course.getName());
+//                int unit = in.nextInt();
+//                in.nextLine();
+//                course.setUnit(unit);
+//                System.out.printf("Provide your score for %s:",course.getName());
+//                int score = in.nextInt();
+//                in.nextLine();
+//                course.setScore(score);
+//                allCourses[i] = course;
+//            }
+//
+//            CalculatorService calculatorService = new CalculatorService();
+//            calculatorService.getGPA(allCourses);
+//
+//            PrintResult printResult = new PrintResult();
+//            printResult.printResult(allCourses);
+//            System.out.printf("Your GPA is = %.2f to 2 decimal places", calculatorService.getGPA(allCourses));
